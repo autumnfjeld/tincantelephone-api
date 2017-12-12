@@ -2,7 +2,7 @@
   "name": "tincantelephone-api",
   "version": "1.0.0",
   "description": "tincantelephone api",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
     "start": "node api.js",
     "test": "test"
