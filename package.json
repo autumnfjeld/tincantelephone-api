@@ -1,0 +1,22 @@
+{
+  "name": "tincantelephone-api",
+  "version": "1.0.0",
+  "description": "tincantelephone api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autumnfjeld/tincantelephone-api.git"
+  },
+  "author": "Autumn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autumnfjeld/tincantelephone-api/issues"
+  },
+  "homepage": "https://github.com/autumnfjeld/tincantelephone-api#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
