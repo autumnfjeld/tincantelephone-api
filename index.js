@@ -39,7 +39,7 @@ socketIo.on('connection', function(socket) {
     socket.join(group);
     socket.on('client:message', function(data) {
         // Message received from client. 
-        console.log(`${data.username} in ${data.group} at ${data.timeStamp}: ${data.message}`);
+        console.log(`${data.username} in ${data.group} at ${data.unixTimeStamp}: ${data.message}`);
         // console.log('data', data);
         messageStore[data.group].push(data);
         console.log(group, ' messageStore count', messageStore[group].length);
